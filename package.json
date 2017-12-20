@@ -1,6 +1,6 @@
 {
   "name": "hide-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hides the code of a javascript class, object.",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,11 @@
   ],
   "author": "@gellerthegyi",
   "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
   "devDependencies": {
     "ava": "^0.16.0",
-    "debug": "^2.2.0",
     "eslint": "^3.2.2",
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-standard": "^2.0.0"
